@@ -1,11 +1,9 @@
 CREATE Table Apprisal(
-EmpId  INT   PRIMARY KEY,
-WorkPerformance	 VARCHAR(23),
-Communication	   VARCHAR(23),
-Hike			       VARCHAR(43),
-Rating	         VARCHAR(23)
-
-
+ EmpId  INT        PRIMARY KEY,
+ WorkPerformance	 VARCHAR(23),
+ Communication	   VARCHAR(23),
+ Hike			         VARCHAR(43),
+ Rating	           VARCHAR(23)
 )
 INSERT INTO Apprisal VALUES (110,'Bad','Average','9','5')
 INSERT INTO Apprisal VALUES (111,'Good','Excellent','7','3')
