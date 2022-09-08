@@ -1,5 +1,5 @@
 CREATE Table Apprisal(
-EmpId INT PRIMARY KEY,
+EmpId      INT   PRIMARY KEY,
 WorkPerformance	 VARCHAR(23),
 Communication	   VARCHAR(23),
 Hike			       VARCHAR(43),
